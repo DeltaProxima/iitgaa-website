@@ -8,9 +8,9 @@ export const metadata = {
 
 export default function VisionMissionPage() {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto px-6 sm:px-6 lg:px-8">
       <Header />
-      <main className="py-12 max-w-4xl mx-auto">
+      <main className="py-12 max-w-4xl mx-auto px-4 sm:px-0">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-text-light dark:text-text-dark">
             Vision - Mission
@@ -25,8 +25,8 @@ export default function VisionMissionPage() {
           <h2 className="text-3xl font-bold mb-6 text-text-light dark:text-text-dark">
             Vision
           </h2>
-          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-6 md:p-8 shadow-sm">
-            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-5 sm:p-6 md:p-8 shadow-sm">
+            <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
               Our vision is to cultivate a vibrant and supportive community of IIT Guwahati Alumni that serves as a strong network of support for all its members. We aim to foster lifelong connections among alumni, creating a nurturing environment where individuals can thrive both personally and professionally. We also want to create an opportunity for the IITGAA community to actively contribute to IIT Guwahati&apos;s development, India&apos;s growth and make a positive impact on their local community.
             </p>
           </div>
@@ -37,15 +37,15 @@ export default function VisionMissionPage() {
           <h2 className="text-3xl font-bold mb-6 text-text-light dark:text-text-dark">
             Mission
           </h2>
-          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-6 md:p-8 shadow-sm">
-            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
+          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-5 sm:p-6 md:p-8 shadow-sm">
+            <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
               Our mission is to cultivate a robust and interconnected community of IIT Guwahati alumni, dedicated to mutual support, continuous learning, and impactful contributions to IIT Guwahati, India and society. We strive to:
             </p>
 
             <div className="space-y-6 ">
               {/* Mission Point 1 */}
-              <div className="border-l-4 border-primary pl-4 py-4">
-                <h3 className="text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
+              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Building a Strong IITGAA Community:
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -61,8 +61,8 @@ export default function VisionMissionPage() {
               </div>
 
               {/* Mission Point 2 */}
-              <div className="border-l-4 border-primary pl-4 py-4">
-                <h3 className="text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
+              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Promote Excellence and Innovation within IITG community:
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -78,8 +78,8 @@ export default function VisionMissionPage() {
               </div>
 
               {/* Mission Point 3 */}
-              <div className="border-l-4 border-primary pl-4 py-4">
-                <h3 className="text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
+              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Give Back to Alma Mater:
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -95,8 +95,8 @@ export default function VisionMissionPage() {
               </div>
 
               {/* Mission Point 4 */}
-              <div className="border-l-4 border-primary pl-4 py-4">
-                <h3 className="text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
+              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Contributing to India&apos;s Growth and Society&apos;s Betterment:
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -112,8 +112,8 @@ export default function VisionMissionPage() {
               </div>
 
               {/* Mission Point 5 */}
-              <div className="border-l-4 border-primary pl-4 py-4">
-                <h3 className="text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
+              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Making a Local Impact with Global Reach:
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -136,21 +136,21 @@ export default function VisionMissionPage() {
           <h2 className="text-3xl font-bold mb-6 text-text-light dark:text-text-dark">
             Adoption
           </h2>
-          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-6 md:p-8 shadow-sm">
-            <h3 className="text-xl font-semibold mb-4 text-text-light dark:text-text-dark">
+          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-5 sm:p-6 md:p-8 shadow-sm">
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 text-text-light dark:text-text-dark">
               Constitutional Amendment
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               <span className="font-semibold">Proposer:</span> Akshay Jajoo
             </p>
-            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+            <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
               We can incorporate the above mission and vision statement to be adopted as a permanent mission and vision statement via a constitutional amendment.
             </p>
             <div className="mt-6">
-              <h4 className="text-lg font-semibold mb-2 text-text-light dark:text-text-dark">
+              <h4 className="text-base sm:text-lg font-semibold mb-2 text-text-light dark:text-text-dark">
                 How will chapters adopt it?
               </h4>
-              <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+              <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
                 Each IITGAA affiliated chapter is free to design and execute their programs independently. Though they must ensure that the programs are fitting at-least one of the mission points and aligns with the vision.
               </p>
             </div>
