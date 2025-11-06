@@ -22,11 +22,11 @@ export default function Header() {
   }
 
   return (
-    <header className="relative flex justify-between items-center py-6">
-      <div className="flex items-center space-x-4">
+    <header className="relative flex justify-between items-end py-6">
+      <Link href="/" className="flex items-center space-x-4">
         <Image
           alt="IIT Guwahati Alumni Association Logo"
-          className="h-16 w-16"
+          className="h-16 w-24"
           src={iitgaa_logoUrl}
           width={64}
           height={64}
@@ -37,13 +37,19 @@ export default function Header() {
             IIT Guwahati Alumni Association
           </span>
           <span className="inline sm:hidden text-lg">
-            IITGAA
+            
           </span>
         </h1>
-      </div>
+      </Link>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-8">
+        <Link
+          href="/vision-mission"
+          className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+        >
+          Vision & Mission
+        </Link>
         <button
           onClick={() => scrollToSection('events')}
           className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
@@ -108,6 +114,13 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-white dark:bg-zinc-800 shadow-lg md:hidden z-50 border-t border-gray-200 dark:border-gray-700">
           <nav className="flex flex-col space-y-4 p-6">
+            <Link
+              href="/vision-mission"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-left text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors py-2"
+            >
+              Vision & Mission
+            </Link>
             <button
               onClick={() => scrollToSection('events')}
               className="text-left text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors py-2"

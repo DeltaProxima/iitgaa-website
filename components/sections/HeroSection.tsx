@@ -15,15 +15,15 @@ export default function HeroSection() {
       <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-16 space-y-8 sm:space-y-0 mt-8">
         <Image
           alt="IIT Guwahati Logo"
-          className="h-32 w-32 sm:h-48 sm:w-48"
+          className="h-36 w-36 sm:h-48 sm:w-48"
           width={64}
           height={64}
           src={iitg_LogoUrl}
         />
         <Image
           alt="IITGAA Logo"
-          className="h-32 w-32 sm:h-48 sm:w-48"
-          width={64}
+          className="h-32 w-48 sm:h-48 sm:w-64"
+          width={100}
           height={64}
           src={iitgaa_logoUrl}
         />

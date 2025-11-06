@@ -23,15 +23,15 @@ export const reports: Report[] = [
     title: "Pune Alumni Meetup 2025 Highlights",
     description: "A look back at the memorable moments from Pune Chapter's Meetup",
     imageUrl: "/assets/images/gallery/pune-meetup-1.jpeg",
-    reportLink: "#"
+    reportLink: "https://drive.google.com/file/d/1_exM8mGs7LVajggEbDdgIoaOJ2OONvih/view?usp=sharing"
   },
-  {
-    id: 2,
-    title: "Mentorship Program Kick-off",
-    description: "Report on the launch of our new mentorship initiative connecting alumni and students.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBzW1miO-_Dh-cT2EBxiYmuKfhqy8S2fy9d9Xszw53VL3sKKg5DCGRPicRx64FyoIEspxvYvRw50H0b3B9CHzcnk6-gzbHMknZKESHCgp8ova9pkFOZqcRLmgUgGN0b5SZDMN9owybt2DMKDeKOtlt6j0l-WJnq9TPuraO30hec0mpYqRkR3pnL_EwO-l05Hl6zGdmeW7abGK5LVspeGnJ4miVhpWv6eKZPYdTZTQjEOkpspiLvH9tdn15DQZ4bd4iKuWVreqMyD13C",
-    reportLink: "#"
-  }
+  // {
+  //   id: 2,
+  //   title: "Delhi Alumni Meetup 2025 Highlights",
+  //   description: "A look back at the memorable moments from Delhi Chapter's Meetup",
+  //   imageUrl: "/assets/images/gallery/delhi-meetup-2.jpg",
+  //   reportLink: "#"
+  // }
 ];
 
 export const teamMembers: TeamMember[] = [

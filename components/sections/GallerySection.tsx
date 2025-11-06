@@ -1,4 +1,4 @@
-import GalleryGrid from '@/components/ui/GalleryGrid'
+import GalleryCarousel from '@/components/ui/GalleryCarousel'
 import { galleryImages } from '@/lib/constants'
 
 export default function GallerySection() {
@@ -7,7 +7,7 @@ export default function GallerySection() {
       <h3 className="text-3xl font-bold text-center mb-12 text-text-light dark:text-text-dark">
         Photo Gallery
       </h3>
-      <GalleryGrid images={galleryImages} />
+      <GalleryCarousel images={galleryImages} />
     </section>
   )
 }
