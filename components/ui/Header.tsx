@@ -22,7 +22,7 @@ export default function Header() {
   }
 
   return (
-    <header className="relative flex justify-between items-end py-6">
+    <header className="relative flex justify-between items-center py-6">
       <Link href="/" className="flex items-center space-x-4">
         <Image
           alt="IIT Guwahati Alumni Association Logo"
