@@ -57,27 +57,26 @@ export default function VisionMissionPage() {
                     <span className="text-primary mr-2">•</span>
                     <span>Provide inclusive platforms for alumni to engage, collaborate, and support each other in their professional and personal endeavours</span>
                   </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">•</span>
+                    <div className="flex-1">
+                      <span>Promote Excellence and Innovation within IITG community:</span>
+                      <ul className="ml-4 mt-2 space-y-2 text-gray-700 dark:text-gray-300">
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          <span>Recognize and celebrate the achievements of our alumni, inspiring the next generation to strive for excellence.</span>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          <span>Encourage innovation, research, and entrepreneurship among alumni, fostering an environment of continuous growth and contribution.</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
                 </ul>
               </div>
 
               {/* Mission Point 2 */}
-              <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
-                <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
-                  Promote Excellence and Innovation within IITG community:
-                </h3>
-                <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span>Recognize and celebrate the achievements of our alumni, inspiring the next generation to strive for excellence.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span>Encourage innovation, research, and entrepreneurship among alumni, fostering an environment of continuous growth and contribution.</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Mission Point 3 */}
               <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Give Back to Alma Mater:
@@ -94,7 +93,7 @@ export default function VisionMissionPage() {
                 </ul>
               </div>
 
-              {/* Mission Point 4 */}
+              {/* Mission Point 3 */}
               <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Contributing to India&apos;s Growth and Society&apos;s Betterment:
@@ -111,7 +110,7 @@ export default function VisionMissionPage() {
                 </ul>
               </div>
 
-              {/* Mission Point 5 */}
+              {/* Mission Point 4 */}
               <div className="border-l-4 border-primary pl-3 sm:pl-4 py-4">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2 text-text-light dark:text-text-dark">
                   Making a Local Impact with Global Reach:
