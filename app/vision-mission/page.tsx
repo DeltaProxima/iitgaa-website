@@ -131,31 +131,7 @@ export default function VisionMissionPage() {
           </div>
         </section>
 
-        {/* Adoption Section */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-text-light dark:text-text-dark">
-            Adoption
-          </h2>
-          <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-5 sm:p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg sm:text-xl font-semibold mb-4 text-text-light dark:text-text-dark">
-              Constitutional Amendment
-            </h3>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              <span className="font-semibold">Proposer:</span> Akshay Jajoo
-            </p>
-            <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
-              We can incorporate the above mission and vision statement to be adopted as a permanent mission and vision statement via a constitutional amendment.
-            </p>
-            <div className="mt-6">
-              <h4 className="text-base sm:text-lg font-semibold mb-2 text-text-light dark:text-text-dark">
-                How will chapters adopt it?
-              </h4>
-              <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                Each IITGAA affiliated chapter is free to design and execute their programs independently. Though they must ensure that the programs are fitting at-least one of the mission points and aligns with the vision.
-              </p>
-            </div>
-          </div>
-        </section>
+       
       </main>
       <Footer />
     </div>
