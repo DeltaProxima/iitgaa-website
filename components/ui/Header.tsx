@@ -50,6 +50,12 @@ export default function Header() {
         >
           Vision & Mission
         </Link>
+        <Link
+          href="/nominations"
+          className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+        >
+          Nominations
+        </Link>
         <button
           onClick={() => scrollToSection('events')}
           className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
@@ -120,6 +126,13 @@ export default function Header() {
               className="text-left text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors py-2"
             >
               Vision & Mission
+            </Link>
+            <Link
+              href="/nominations"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-left text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors py-2"
+            >
+              Nominations
             </Link>
             <button
               onClick={() => scrollToSection('events')}

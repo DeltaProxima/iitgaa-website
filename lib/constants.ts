@@ -1,4 +1,4 @@
-import { Event, Report, TeamMember, GalleryImage } from './types';
+import { Event, Report, TeamMember, GalleryImage, NominationOpportunity } from './types';
 
 export const events: Event[] = [
   {
@@ -131,3 +131,32 @@ export const galleryImages: GalleryImage[] = [
 export const iitgaa_logoUrl = "/assets/images/iitgaa_logo.png"
 
 export const iitg_LogoUrl = "/assets/images/iitg_logo.png"
+
+// Single Google form link for all nominations and volunteer applications
+export const APPLICATION_FORM_LINK = "https://forms.gle/YOUR_FORM_ID_HERE";
+
+export const nominations: NominationOpportunity[] = [
+  // Add your nomination opportunities here
+  // Example:
+  // {
+  //   id: 1,
+  //   title: "Executive Committee Member - 2025",
+  //   description: "We are seeking nominations for Executive Committee members to help lead and shape the future of IITGAA.",
+  //   deadline: "2025-03-31",
+  //   type: "nomination",
+  //   formLink: APPLICATION_FORM_LINK
+  // },
+];
+
+export const volunteerOpportunities: NominationOpportunity[] = [
+  // Add your volunteer opportunities here
+  // Example:
+  // {
+  //   id: 1,
+  //   title: "Event Organizing Committee - Bangalore Chapter",
+  //   description: "Join us in organizing exciting events and meetups for the Bangalore alumni community.",
+  //   deadline: "2025-04-15",
+  //   type: "volunteer",
+  //   formLink: APPLICATION_FORM_LINK
+  // },
+];

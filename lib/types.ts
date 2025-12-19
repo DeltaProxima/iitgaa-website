@@ -26,3 +26,14 @@ export interface GalleryImage {
   src: string;
   alt: string;
 }
+
+export type OpportunityType = 'nomination' | 'volunteer';
+
+export interface NominationOpportunity {
+  id: number;
+  title: string;
+  description: string;
+  deadline: string; // ISO date string or formatted date string
+  type: OpportunityType;
+  formLink: string; // Google form link
+}
