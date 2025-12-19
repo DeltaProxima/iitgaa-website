@@ -54,7 +54,7 @@ export default function Header() {
           href="/nominations"
           className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
         >
-          Nominations
+          Opportunities
         </Link>
         <button
           onClick={() => scrollToSection('events')}
