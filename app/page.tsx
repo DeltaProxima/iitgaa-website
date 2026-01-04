@@ -15,7 +15,7 @@ export default function Home() {
         <EventsSection />
         <ReportsSection />
         <GallerySection />
-        <TeamSection />
+        {/* <TeamSection /> */}
       </main>
       <Footer />
     </div>

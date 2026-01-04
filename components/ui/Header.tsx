@@ -74,12 +74,12 @@ export default function Header() {
         >
           Gallery
         </button>
-        <button
+        {/* <button
           onClick={() => scrollToSection('team')}
           className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
         >
           Our Team
-        </button>
+        </button> */}
       </nav>
 
       {/* Theme Toggle & Mobile Menu Button */}

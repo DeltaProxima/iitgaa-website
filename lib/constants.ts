@@ -137,25 +137,25 @@ export const APPLICATION_FORM_LINK = "https://forms.gle/YOUR_FORM_ID_HERE";
 
 export const nominations: NominationOpportunity[] = [
  
-  {
-    id: 1,
-    title: "Bangalore Chapter Head",
-    description: "We are seeking nominations for Bangalore Chapter Head to help lead and shape the future of IITGAA Bangalore Chapter.",
-    deadline: "2026-03-31",
-    type: "nomination",
-    formLink: APPLICATION_FORM_LINK
-  },
+  // {
+  //   id: 1,
+  //   title: "Bangalore Chapter Head",
+  //   description: "We are seeking nominations for Bangalore Chapter Head to help lead and shape the future of IITGAA Bangalore Chapter.",
+  //   deadline: "2026-03-31",
+  //   type: "nomination",
+  //   formLink: APPLICATION_FORM_LINK
+  // },
 ];
 
 export const volunteerOpportunities: NominationOpportunity[] = [
   // Add your volunteer opportunities here
   // Example:
-  {
-    id: 1,
-    title: "Event Organizing Committee - Bangalore Chapter",
-    description: "Join us in organizing exciting events and meetups for the Bangalore alumni community.",
-    deadline: "2026-04-15",
-    type: "volunteer",
-    formLink: APPLICATION_FORM_LINK
-  },
+  // {
+    // id: 1,
+    // title: "Event Organizing Committee - Bangalore Chapter",
+    // description: "Join us in organizing exciting events and meetups for the Bangalore alumni community.",
+    // deadline: "2026-04-15",
+    // type: "volunteer",
+    // formLink: APPLICATION_FORM_LINK
+  // },
 ];
