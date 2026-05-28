@@ -100,7 +100,7 @@ export default function NominationsPage() {
               <strong>Note:</strong> Make sure to submit your application before the deadline. 
               Late submissions may not be considered.
             </p>
-            {/* <p className="pt-2 break-words">
+            <p className="pt-2 break-words">
               <strong>Direct Form Link:</strong>{' '}
               <a 
                 href={APPLICATION_FORM_LINK} 
@@ -110,7 +110,7 @@ export default function NominationsPage() {
               >
                 {APPLICATION_FORM_LINK}
               </a>
-            </p> */}
+            </p>
           </div>
         </section>
       </main>

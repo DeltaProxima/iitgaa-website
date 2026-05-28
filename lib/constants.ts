@@ -133,29 +133,56 @@ export const iitgaa_logoUrl = "/assets/images/iitgaa_logo.png"
 export const iitg_LogoUrl = "/assets/images/iitg_logo.png"
 
 // Single Google form link for all nominations and volunteer applications
-export const APPLICATION_FORM_LINK = "https://forms.gle/YOUR_FORM_ID_HERE";
+export const APPLICATION_FORM_LINK = "https://forms.gle/DCEMSNR7Mm96LELB6";
 
 export const nominations: NominationOpportunity[] = [
  
-  // {
-  //   id: 1,
-  //   title: "Bangalore Chapter Head",
-  //   description: "We are seeking nominations for Bangalore Chapter Head to help lead and shape the future of IITGAA Bangalore Chapter.",
-  //   deadline: "2026-03-31",
-  //   type: "nomination",
-  //   formLink: APPLICATION_FORM_LINK
-  // },
+  {
+    id: 1,
+    title: "Bangalore Chapter Head, IITGAA ",
+    description: "We are seeking nominations for Bangalore Chapter Head to help lead and shape the future of IITGAA Bangalore Chapter.",
+    deadline: "2026-06-14",
+    type: "nomination",
+    formLink: APPLICATION_FORM_LINK
+  },
+   {
+    id: 2,
+    title: "Bay Area, USA Chapter Head, IITGAA ",
+    description: "We are seeking nominations for Bay Area Chapter Head to help lead and shape the future of IITGAA Bay Area Chapter.",
+    deadline: "2026-06-14",
+    type: "nomination",
+    formLink: APPLICATION_FORM_LINK
+  },
+  {
+    id: 3,
+    title: "DMV Area, USA Chapter Head, IITGAA ",
+    description: "We are seeking nominations for DMV Chapter Head to help lead and shape the future of IITGAA DMV Chapter.",
+    deadline: "2026-06-14",
+    type: "nomination",
+    formLink: APPLICATION_FORM_LINK
+  },
+  {
+    id: 4,
+    title: "Japan Chapter Head, IITGAA ",
+    description: "We are seeking nominations for Japan Chapter Head to help lead and shape the future of IITGAA Japan Chapter.",
+    deadline: "2026-06-14",
+    type: "nomination",
+    formLink: APPLICATION_FORM_LINK
+  },
+ 
 ];
 
 export const volunteerOpportunities: NominationOpportunity[] = [
   // Add your volunteer opportunities here
   // Example:
   // {
-    // id: 1,
-    // title: "Event Organizing Committee - Bangalore Chapter",
-    // description: "Join us in organizing exciting events and meetups for the Bangalore alumni community.",
-    // deadline: "2026-04-15",
-    // type: "volunteer",
-    // formLink: APPLICATION_FORM_LINK
+  //   id: 1,
+  //   title: "Bangalore Chapter Head, IITGAA ",
+  //   description: "This is an opportunity to lead the Bangalore chapter of IITGAA and organize events, meetups, and initiatives for the alumni community in Bangalore.",
+  //   deadline: "2026-06-14",
+  //   type: "volunteer",
+  //   formLink: APPLICATION_FORM_LINK
   // },
+  
+ 
 ];
